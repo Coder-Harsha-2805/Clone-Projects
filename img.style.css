@@ -1,0 +1,133 @@
+
+body{
+   background-color: black;
+}
+
+img{
+   width: 300px;
+   border-radius: 8px;
+   object-fit: contain;
+   display: block;
+   transition: 0.2s;
+}
+
+
+img:hover{
+   opacity: 0.7;
+}
+
+
+input{
+   display: block;
+   align-self: center;
+   font-weight: 200;
+   margin-top: 5px;
+   margin-bottom: 5px;
+   width: 300px;
+   font-size: 20px;
+   border-radius: 28px;
+   margin-left: 280px;
+   margin-right: 250px;
+
+
+}
+
+.top{
+   display: flex;
+}
+
+.pm{
+  font-weight: bold;
+  color: white;
+  display: inline-block;
+  width: 200px;
+  font-family: 'Arial', Arial, sans-serif;
+  margin-top: 8px;
+  margin-bottom: 0;
+  
+}
+
+.pmm{
+   display: inline-block;
+   width: 200px;
+   margin-top: 8px;
+   margin-bottom: 0;
+   color: rgb(181, 172, 172);
+   font-family: 'Arial', Arial, sans-serif;
+}
+
+div{
+   width: 300px;
+   display: inline-block;
+   vertical-align: top;
+   margin-top: 10px;
+   margin-right: 10px;
+   margin-left: 10px;
+
+}
+
+.info{
+   width: 250px;
+   display: inline-block;
+   margin-top: 10px;
+   margin-right: 10px;
+   vertical-align: top;
+   
+}
+
+.circle{
+   display: block;
+   width: 50px;
+   border-radius: 50px;
+   cursor: pointer;
+   transition: 0.2s;
+}
+
+.circle:hover{
+   opacity: 0.8;
+}
+
+.cout{
+   display: flex;
+}
+
+
+.lin3{
+   color: aliceblue;
+   display: block;
+   font-size: 40px;
+   width: 200px;
+   margin-top: 5px;
+   margin-bottom: 5px;
+   margin-left: 10px;
+}
+
+
+.logo{
+   color: aliceblue;
+   background-color: red;
+   padding-left: 12px;
+   padding-right: 12px;
+   padding-top: 5px;
+   padding-bottom: 0px;
+   border-radius: 8px;
+   margin-left: 30px;
+
+}
+
+
+.you{
+   color: rgb(180, 186, 186);
+   size: 10px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   margin-left: 5px;
+   width: 50px;
+}
+
+
+/* properties of img tag
+      object-fit : cover(crop acc to given both height and width)/contain(stretch acc. to height and width maintaining the image's actual )
+      object-position
+      */
+
+
